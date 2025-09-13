@@ -11,6 +11,17 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+    closeMenu();
+  };
+
   return (
     <header className="bg-white shadow-lg fixed w-full top-0 z-50">
       <nav className="container mx-auto px-6 py-4">
@@ -22,34 +33,36 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <a 
-              href="#about" 
+            <button 
+              onClick={() => scrollToSection('about')}
               className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium"
-              onClick={closeMenu}
             >
               About
-            </a>
-            <a 
-              href="#skills" 
+            </button>
+            <button 
+              onClick={() => scrollToSection('skills')}
               className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium"
-              onClick={closeMenu}
             >
               Skills
-            </a>
-            <a 
-              href="#projects" 
+            </button>
+            <button 
+              onClick={() => scrollToSection('projects')}
               className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium"
-              onClick={closeMenu}
             >
               Projects
-            </a>
-            <a 
-              href="#contact" 
+            </button>
+            <button 
+              onClick={() => scrollToSection('testimonials')}
               className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium"
-              onClick={closeMenu}
+            >
+              Testimonials
+            </button>
+            <button 
+              onClick={() => scrollToSection('contact')}
+              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium"
             >
               Contact
-            </a>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -88,38 +101,40 @@ const Header = () => {
         {/* Mobile Navigation Menu */}
         <div className={`md:hidden transition-all duration-300 ease-in-out ${
           isMenuOpen 
-            ? 'max-h-64 opacity-100 mt-4' 
+            ? 'max-h-80 opacity-100 mt-4' 
             : 'max-h-0 opacity-0 overflow-hidden'
         }`}>
           <div className="flex flex-col space-y-4 py-4 border-t border-gray-200">
-            <a 
-              href="#about" 
-              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2"
-              onClick={closeMenu}
+            <button 
+              onClick={() => scrollToSection('about')}
+              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2 text-left"
             >
               About
-            </a>
-            <a 
-              href="#skills" 
-              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2"
-              onClick={closeMenu}
+            </button>
+            <button 
+              onClick={() => scrollToSection('skills')}
+              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2 text-left"
             >
               Skills
-            </a>
-            <a 
-              href="#projects" 
-              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2"
-              onClick={closeMenu}
+            </button>
+            <button 
+              onClick={() => scrollToSection('projects')}
+              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2 text-left"
             >
               Projects
-            </a>
-            <a 
-              href="#contact" 
-              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2"
-              onClick={closeMenu}
+            </button>
+            <button 
+              onClick={() => scrollToSection('testimonials')}
+              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2 text-left"
+            >
+              Testimonials
+            </button>
+            <button 
+              onClick={() => scrollToSection('contact')}
+              className="text-gray-600 hover:text-blue-600 transition duration-300 font-medium py-2 text-left"
             >
               Contact
-            </a>
+            </button>
           </div>
         </div>
       </nav>

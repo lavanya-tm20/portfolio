@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanya T M - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #8B5CF6;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 2.5em;
+            color: #8B5CF6;
+            margin: 0;
+            font-weight: bold;
+        }
+        .title {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        .contact-item {
+            color: #333;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.4em;
+            color: #8B5CF6;
+            border-bottom: 1px solid #E5E7EB;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .experience-item, .project-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #F9FAFB;
+            border-radius: 8px;
+            border-left: 4px solid #8B5CF6;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #333;
+            font-size: 1.1em;
+        }
+        .company {
+            color: #666;
+            font-weight: 500;
+        }
+        .duration {
+            color: #8B5CF6;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        .skill-item {
+            background-color: #8B5CF6;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-align: center;
+            font-weight: 500;
+        }
+        .education {
+            background-color: #F0F9FF;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3B82F6;
+        }
+        .degree {
+            font-weight: bold;
+            color: #333;
+        }
+        .university {
+            color: #666;
+        }
+        .languages {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .language-item {
+            background-color: #10B981;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+        .objective {
+            background-color: #FEF3C7;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #F59E0B;
+            font-style: italic;
+        }
+        .skills-category {
+            margin-bottom: 15px;
+        }
+        .skills-category h4 {
+            color: #333;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .skill-tag {
+            background-color: #E5E7EB;
+            color: #374151;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        .project-description {
+            margin-top: 8px;
+            color: #666;
+            line-height: 1.5;
+        }
+        .cgpa {
+            color: #8B5CF6;
+            font-weight: bold;
+        }
+        @media print {
+            body { background-color: white; }
+            .resume-container { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <h1 class="name">LAVANYA T M</h1>
+            <div class="contact">
+                <span class="contact-item">📱 +91-8088605057</span>
+                <span class="contact-item">📍 Bangalore, India</span>
+                <a href="mailto:lavanyatm08@gmail.com" class="contact-item">📧 lavanyatm08@gmail.com</a>
+                <a href="https://www.linkedin.com/in/lavanyatm" class="contact-item">💼 LinkedIn</a>
+                <a href="https://github.com/lavanya-tm20" class="contact-item">🐙 GitHub</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Objective</h2>
+            <div class="objective">
+                To secure an internship opportunity where I can apply my programming and problem-solving skills to real-world projects, contribute to team goals, gain hands-on experience with modern technologies, and enhance my knowledge through practical learning and collaboration.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education">
+                <div class="degree">B.E in Computer Science and Engineering</div>
+                <div class="university">Sir M. Visvesvaraya Institute of Technology</div>
+                <div class="duration">CGPA: <span class="cgpa">8.28/10</span> | Expected Graduation: 2026 | Bangalore, India</div>
+            </div>
+            <div class="education" style="margin-top: 15px;">
+                <div class="degree">Pre-University Education (PUC-PCMB)</div>
+                <div class="university">Sri Siddeshwara PU College</div>
+                <div class="duration">Overall: 91% | Mathematics: 100% | PCM Aggregate: 95.33% | April 2022 | Davangere, Karnataka</div>
+            </div>
+            <div class="education" style="margin-top: 15px;">
+                <div class="degree">Secondary School (SSLC)</div>
+                <div class="university">Karnataka Public School</div>
+                <div class="duration">Score: 88.8% | 2020 | Sasvehalli, Davangere</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-item">
+                <div class="job-title">Software Engineer Intern</div>
+                <div class="company">YugaYatra Retail (OPC) Private Ltd</div>
+                <div class="duration">Sep 2025 - Present</div>
+                <p>Currently working as a Software Engineer Intern, gaining hands-on experience in software development practices and contributing to real-world projects.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-category">
+                <h4>Technical Skills</h4>
+                <div class="skills-list">
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">DevOps</span>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h4>Core Subjects</h4>
+                <div class="skills-list">
+                    <span class="skill-tag">DSA</span>
+                    <span class="skill-tag">Operating Systems</span>
+                    <span class="skill-tag">Computer Networks</span>
+                    <span class="skill-tag">OOPS</span>
+                    <span class="skill-tag">DBMS</span>
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">Cloud Computing</span>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h4>Soft Skills</h4>
+                <div class="skills-list">
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Teamwork & Collaboration</span>
+                    <span class="skill-tag">Problem-Solving</span>
+                    <span class="skill-tag">Time Management</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-item">
+                <div class="job-title">URL Shortener Web Application</div>
+                <div class="project-description">
+                    Developed a URL shortener using Python, HTML, CSS, and SQL database, reducing average URL length by 60%. Implemented analytics tracking (click counts, timestamps, link validity checks). Built RESTful endpoints for link management.
+                </div>
+                <div class="duration">Technologies: Python, HTML, CSS, SQL</div>
+            </div>
+            <div class="project-item">
+                <div class="job-title">Smart Door Lock System</div>
+                <div class="project-description">
+                    Designed and simulated a secure door lock system using Tinkercad, Arduino Uno, and a 4x4 keypad. Implemented password authentication in C++. Validated the system through simulation.
+                </div>
+                <div class="duration">Technologies: Tinkercad, Arduino Uno, C++</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Extra-Curricular Activities</h2>
+            <ul>
+                <li><strong>Volunteer, Spandana Club</strong> - Participated in social activities and community service initiatives</li>
+                <li><strong>College-level Hackathons</strong> - Participated in competitive programming events</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages">
+                <div class="language-item">Kannada (Native)</div>
+                <div class="language-item">English (Fluent)</div>
+                <div class="language-item">Hindi (Conversational)</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
