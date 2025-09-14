@@ -1,0 +1,192 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1200
+>>
+stream
+BT
+/F1 20 Tf
+72 750 Td
+(LAVANYA T M) Tj
+0 -30 Td
+/F2 10 Tf
+(Phone: +91-8088605057 | Bangalore, India) Tj
+0 -15 Td
+(Email: lavanyatm08@gmail.com | LinkedIn: https://www.linkedin.com/in/lavanyatm) Tj
+0 -15 Td
+(GitHub: https://github.com/lavanya-tm20) Tj
+0 -40 Td
+/F1 14 Tf
+(OBJECTIVE) Tj
+0 -20 Td
+/F2 10 Tf
+(To secure an internship opportunity where I can apply my programming and) Tj
+0 -12 Td
+(problem-solving skills to real-world projects, contribute to team goals, gain) Tj
+0 -12 Td
+(hands-on experience with modern technologies, and enhance my knowledge) Tj
+0 -12 Td
+(through practical learning and collaboration.) Tj
+0 -30 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F2 10 Tf
+(B.E in Computer Science and Engineering) Tj
+0 -12 Td
+(Sir M. Visvesvaraya Institute of Technology) Tj
+0 -12 Td
+(CGPA: 8.28/10 | Expected Graduation: 2026 | Bangalore, India) Tj
+0 -20 Td
+(Pre-University Education \(PUC-PCMB\)) Tj
+0 -12 Td
+(Sri Siddeshwara PU College) Tj
+0 -12 Td
+(Overall: 91% | Mathematics: 100% | PCM Aggregate: 95.33% | April 2022) Tj
+0 -12 Td
+(Davangere, Karnataka) Tj
+0 -20 Td
+(Secondary School \(SSLC\)) Tj
+0 -12 Td
+(Karnataka Public School) Tj
+0 -12 Td
+(Score: 88.8% | 2020 | Sasvehalli, Davangere) Tj
+0 -30 Td
+/F1 14 Tf
+(WORK EXPERIENCE) Tj
+0 -20 Td
+/F2 10 Tf
+(Software Engineer Intern) Tj
+0 -12 Td
+(YugaYatra Retail \(OPC\) Private Ltd) Tj
+0 -12 Td
+(Sep 2025 - Present) Tj
+0 -12 Td
+(Currently working as a Software Engineer Intern, gaining hands-on) Tj
+0 -12 Td
+(experience in software development practices and contributing to) Tj
+0 -12 Td
+(real-world projects.) Tj
+0 -30 Td
+/F1 14 Tf
+(SKILLS) Tj
+0 -20 Td
+/F2 10 Tf
+(Technical Skills: C, C++, Python, Java, SQL, HTML, CSS, GitHub, DevOps) Tj
+0 -15 Td
+(Core Subjects: DSA, Operating Systems, Computer Networks, OOPS,) Tj
+0 -12 Td
+(DBMS, Machine Learning, Cloud Computing) Tj
+0 -15 Td
+(Soft Skills: Communication, Teamwork & Collaboration,) Tj
+0 -12 Td
+(Problem-Solving, Time Management) Tj
+0 -30 Td
+/F1 14 Tf
+(PROJECTS) Tj
+0 -20 Td
+/F2 10 Tf
+(URL Shortener Web Application) Tj
+0 -12 Td
+(Developed a URL shortener using Python, HTML, CSS, and SQL database,) Tj
+0 -12 Td
+(reducing average URL length by 60%. Implemented analytics tracking) Tj
+0 -12 Td
+(\(click counts, timestamps, link validity checks\). Built RESTful) Tj
+0 -12 Td
+(endpoints for link management.) Tj
+0 -15 Td
+(Technologies: Python, HTML, CSS, SQL) Tj
+0 -20 Td
+(Smart Door Lock System) Tj
+0 -12 Td
+(Designed and simulated a secure door lock system using Tinkercad,) Tj
+0 -12 Td
+(Arduino Uno, and a 4x4 keypad. Implemented password authentication) Tj
+0 -12 Td
+(in C++. Validated the system through simulation.) Tj
+0 -15 Td
+(Technologies: Tinkercad, Arduino Uno, C++) Tj
+0 -30 Td
+/F1 14 Tf
+(EXTRA-CURRICULAR ACTIVITIES) Tj
+0 -20 Td
+/F2 10 Tf
+(Volunteer, Spandana Club - Participated in social activities and) Tj
+0 -12 Td
+(community service initiatives.) Tj
+0 -15 Td
+(Participated in college-level hackathons.) Tj
+0 -30 Td
+/F1 14 Tf
+(LANGUAGES) Tj
+0 -20 Td
+/F2 10 Tf
+(Kannada \(Native\), English \(Fluent\), Hindi \(Conversational\)) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000001475 00000 n 
+0000001524 00000 n 
+trailer
+<<
+/Size 7
+/Root 1 0 R
+>>
+startxref
+1616
+%%EOF
